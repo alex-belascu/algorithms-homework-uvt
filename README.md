@@ -1,17 +1,8 @@
 # Sorting Algorithms Visualizer
 
-Small project to visualize sorting algorithms. The purpose was to play around drawing with canvas.
-
-![Bubble Sort](/sample/sample.gif)
+Algorithms and Data Structures homework.
 
 ### Run
 
-Make sure you have `serve` installed:
-
-    yarn global add serve
-
-Then just run
-
-    serve
-
-in the project's folder.
+To run the project please click the following link
+https://alex-belascu.github.io/algorithms-homework-uvt
