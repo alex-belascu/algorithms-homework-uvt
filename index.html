@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="module" src="app.js"></script>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Sorting Algorithms Visualizer</h1>
+      </div>
+      <ul class="menu">
+        <li><a href="#">QuickSort</a></li>
+        <li><a href="#">BubbleSort</a></li>
+        <li><a href="#">SelectionSort</a></li>
+        <li><a href="#">InsertionSort</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <p class="subheader">
+      Small project to visualize sorting algorithms. The purpose was to play around drawing with canvas.
+    </p>
+  </header>
+  <main>
+    <div>
+      <label for="speed-input">Speed (between 1 and 500): </label>
+      <input type="number" id="speed-input" name="tentacles" min="1" max="500" value="50">
+    </div>
+    <p class="subheader">
+      Speed Low to High.
+    </p>
+    <div class="speeds-slide-wrap">
+      <input type="range" min="0" max="500" value="50" id="speed">
+    </div>
+    <div class="canvas-container">
+      <canvas id="myCanvas" class="canvas" />
+    </div>
+    <div>
+      <span id="currentStep"></span>
+    </div>
+    <div class="warning-container">
+      <div id="myWarning"></div>
+    </div>
+  </main>
+</body>
+
+</html>
